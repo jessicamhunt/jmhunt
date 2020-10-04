@@ -6486,7 +6486,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-image: linear-gradient(hotpink, mediumslateblue) !important;
+  background-image: linear-gradient(black, black) !important;
 }
 
 a.bg-primary:hover,
@@ -10197,7 +10197,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: mediumslateblue !important;
+  color: rgba(255, 52, 150, 0.8) !important;
 }
 
 a.text-primary:hover,
@@ -10415,7 +10415,7 @@ html {
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
-  border-color: mediumslateblue;
+  border-color: black;
 }
 
 hr.light {
@@ -10450,7 +10450,7 @@ hr.light {
   color: #212529;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
-  color: mediumslateblue;
+  color: black;
   font-family: "Barlow", sans-serif;
   font-weight: 700;
   font-size: 0.9rem;
@@ -10458,10 +10458,10 @@ hr.light {
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover,
 #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: mediumslateblue;
+  color: black;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: mediumslateblue !important;
+  color: black !important;
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -10507,8 +10507,8 @@ header.masthead {
   padding-bottom: calc(10rem - 4.5rem);
   background: linear-gradient(
       to bottom,
-      rgba(92, 77, 66, 0.8) 0%,
-      rgba(92, 77, 66, 0.8) 100%
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(255, 52, 150, 0.8) 100%
     ),
     url("../assets/img/bg-masthead.jpg");
   background-position: center;
@@ -10570,7 +10570,7 @@ header.masthead h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(244, 98, 58, 0.9);
+  background: rgba(255, 52, 150, 0.9);
   transition: opacity 0.25s ease;
   text-align: center;
 }
