@@ -31,13 +31,16 @@
       crossorigin="anonymous"
     ></script>
 
-    <title>Jessica M. Hunt | Web Developer</title>
+    <title>Jessica Marilyn Hunt</title>
   </head>
   <body id="page-top">
     <!-- Navbar -->
-    <nav id="main-nav" class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav
+      id="main-nav"
+      class="navbar navbar-expand-lg navbar-light fixed-top py-3 bg-light"
+    >
       <a class="navbar-brand" href="#page-top"
-        ><img src="logo/cover.png" width="200" height="70" alt=""
+        ><img src="logo/cover.png" width="150" height="50" alt=""
       /></a>
       <button
         class="navbar-toggler"
@@ -51,7 +54,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto justify-content-center">
+        <ul class="navbar-nav justify-content-center">
           <li class="nav-item active">
             <a class="nav-link" href="#about"
               >About <span class="sr-only">(current)</span></a
@@ -65,9 +68,9 @@
           </li>
         </ul>
       </div>
-      <div class="social-icons">
-        <ul class="navbar-nav mr-auto justify-content-center">
-          <li class="nav-item active">
+      <!-- <div class="social-icons">
+        <ul class="navbar-nav justify-content-center">
+          <li class="nav-item">
             <a
               class="nav-link"
               href="https://www.linkedin.com/in/jessicamarilynhunt/"
@@ -100,7 +103,7 @@
             ></a>
           </li>
         </ul>
-      </div>
+      </div> -->
     </nav>
 
     <!-- Main Container -->
@@ -116,7 +119,7 @@
             experience.
           </p>
           <a
-            class="btn btn-primary btn-lg border border-dark rounded-pill mt-5"
+            class="btn btn-secondary btn-lg border border-dark rounded-pill mt-5"
             href="#about"
             role="button"
             >ABOUT ME</a
@@ -145,7 +148,7 @@
           quality code.
         </p>
         <a
-          class="btn btn-primary btn-lg border border-dark rounded-pill"
+          class="btn btn-secondary btn-lg border border-dark rounded-pill"
           href="#portfolio"
           role="button"
           >PROJECTS</a
@@ -156,17 +159,17 @@
     <!-- Portfolio Section -->
     <section id="portfolio">
       <div class="container vh-100">
-        <h1 class="display-4">PORFOLIO</h1>
+        <h1 class="display-4 text-center">PORTFOLIO</h1>
         <hr class="my-4" />
         <div class="row mt-5">
-          <div class="col">
+          <div class="col-md-4">
             <div class="card" style="width: 18rem">
               <img
                 src="img/eyethscreenshot.png"
                 class="card-img-top"
                 alt="..."
               />
-              <div class="card-body">
+              <div class="card-body text-center">
                 <h4 class="card-title">Eyeth</h4>
                 <h5>Mongo, React, Redux, Express, Node</h5>
                 <p class="card-text">
@@ -175,27 +178,27 @@
                 </p>
                 <a
                   href="https://eyeth.herokuapp.com/"
-                  class="btn btn-primary"
+                  class="btn btn-secondary"
                   target="_blank"
                   >Website</a
                 >
                 <a
                   href="https://github.com/jessicamhunt/eyeth"
-                  class="btn btn-primary"
+                  class="btn btn-secondary"
                   target="_blank"
                   >Github</a
                 >
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-md-4">
             <div class="card" style="width: 18rem">
               <img
                 src="img/exptrackerscreenshot.png"
                 class="card-img-top"
                 alt="..."
               />
-              <div class="card-body">
+              <div class="card-body text-center">
                 <h4 class="card-title">Expense Tracker</h4>
                 <h5>HTML, CSS, JavaScript, React</h5>
                 <p class="card-text">
@@ -203,27 +206,27 @@
                 </p>
                 <a
                   href="https://jessicamhunt.github.io/expense-tracker/"
-                  class="btn btn-primary"
+                  class="btn btn-secondary"
                   target="_blank"
                   >Website</a
                 >
                 <a
                   href="https://github.com/jessicamhunt/expense-tracker"
-                  class="btn btn-primary"
+                  class="btn btn-secondary"
                   target="_blank"
                   >Github</a
                 >
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-md-4">
             <div class="card" style="width: 18rem">
               <img
                 src="img/enroutescreenshot.png"
                 class="card-img-top"
                 alt="..."
               />
-              <div class="card-body">
+              <div class="card-body text-center">
                 <h4 class="card-title">En Route</h4>
                 <h5>JQuery, Firebase, Bootstrap</h5>
                 <p class="card-text">
@@ -232,13 +235,13 @@
                 </p>
                 <a
                   href="https://jessicamhunt.github.io/en-route/"
-                  class="btn btn-primary"
+                  class="btn btn-secondary"
                   target="_blank"
                   >Website</a
                 >
                 <a
                   href="https://github.com/jessicamhunt/en-route"
-                  class="btn btn-primary"
+                  class="btn btn-secondary"
                   target="_blank"
                   >Github</a
                 >
@@ -251,19 +254,14 @@
 
     <!-- Contact Section -->
     <section id="contact">
-      <div class="container vh-100">
+      <div class="container text-center">
         <h1 class="display-4">CONTACT</h1>
         <hr class="my-4" />
         <p class="lead">
-          This is a simple hero unit, a simple jumbotron-style component for
-          calling extra attention to featured content or information.
+          Let's build a project together! You can contact me via phone or email
+          and I'll get back to you as soon as possible. I look forward to
+          hearing from you!
         </p>
-        <hr class="my-4" />
-        <p>
-          It uses utility classes for typography and spacing to space content
-          out within the larger container.
-        </p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
       </div>
     </section>
 
