@@ -73,9 +73,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #fff;
   text-align: left;
-  background-color: #fff;
+  background-color: black;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -10415,7 +10415,7 @@ html {
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
-  border-color: black;
+  border-color: #fff;
 }
 
 hr.light {
