@@ -173,12 +173,12 @@ sup {
 }
 
 a {
-  color: #932191;
+  color: rgba(255, 52, 150);
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #932191;
+  color: rgba(255, 52, 150);
   text-decoration: underline;
 }
 
@@ -6552,7 +6552,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: rgba(255, 52, 150) !important;
 }
 
 a.bg-light:hover,
